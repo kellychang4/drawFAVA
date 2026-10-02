@@ -114,28 +114,28 @@ annotations:
   Face Areas:
     type: boundary
     variable: true
-    variable_options: [ "IOG-faces", "pFus-faces", "mFus-faces" ]
+    variable_options: [ "OFA", "FFA-1", "FFA-2", "mTL-faces", "aTL-faces" ]
     figure_grid: 
      - [ "faces", "curvature" ]
   # Body Areas (variable)
   Body Areas:
     type: boundary
     variable: true
-    variable_options: [ "ITG-bodies", "LOS-bodies" ]
+    variable_options: [ "EBA", "FBA-1", "FBA-2", "mTL-bodies" ]
     figure_grid: 
      - [ "bodies", "curvature" ]
   # Place Areas (variable)
   Place Areas:
     type: boundary
     variable: true
-    variable_options: [ "CoS-places" ]
+    variable_options: [ "OPA", "PPA", "RSC" ]
     figure_grid: 
      - [ "places", "curvature" ]
   # Word Areas (variable)
   Word Areas:
     type: boundary
     variable: true
-    variable_options: [ "VWFA-1", "VWFA-2" ]
+    variable_options: [ "OWFA", "VWFA-1", "VWFA-2", "mfs-words", "mTL-words" ]
     figure_grid: 
      - [ "words", "curvature" ]
 
